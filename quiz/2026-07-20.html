@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prayagraj Daily Quiz — 20 July 2026</title>
+<meta property="og:title" content="Prayagraj Daily Quiz — 20 July 2026">
+<meta property="og:description" content="5 questions: General Knowledge, History &amp; Geography. Can you score 5/5?">
+<meta property="og:url" content="https://sarthakkalra.github.io/prayagrajcity-pages/quiz/2026-07-20.html">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&family=IBM+Plex+Mono:wght@500;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #ffffff;
+    --paper-alt: #eef3f8;
+    --ink: #1c2541;
+    --rule: #2e4a7a;
+    --stamp: #8b2e2e;
+    --correct: #2e7d4f;
+    --incorrect: #c0392b;
+    --muted: #6b7280;
+    --radius: 4px;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper-alt);
+    background-image:
+      linear-gradient(var(--paper-alt) 0px, var(--paper-alt) 100%),
+      repeating-linear-gradient(0deg, transparent, transparent 27px, rgba(46,74,122,0.06) 28px);
+    color: var(--ink);
+    font-family: 'Inter', 'Noto Sans Devanagari', sans-serif;
+    line-height: 1.5;
+    padding: 24px 12px 64px;
+    min-height: 100vh;
+  }
+  .mono { font-family: 'IBM Plex Mono', monospace; }
+  .admit-card {
+    max-width: 640px;
+    margin: 0 auto;
+    background: var(--paper);
+    border: 2px solid var(--ink);
+    border-radius: 6px;
+    box-shadow: 6px 6px 0 rgba(28,37,65,0.08);
+    overflow: hidden;
+  }
+  .card-header {
+    position: relative;
+    padding: 28px 28px 20px;
+    border-bottom: 2px dashed var(--rule);
+  }
+  .stamp-badge {
+    position: absolute;
+    top: 22px;
+    right: 24px;
+    font-family: 'Special Elite', monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    color: var(--stamp);
+    border: 2px solid var(--stamp);
+    border-radius: 999px;
+    padding: 5px 12px;
+    transform: rotate(6deg);
+    opacity: 0.85;
+  }
+  .eyebrow {
+    font-family: 'Noto Sans Devanagari', 'Special Elite', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    color: var(--rule);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-family: 'Special Elite', monospace;
+    font-size: 22px;
+    line-height: 1.35;
+    margin: 0 0 18px;
+    max-width: 85%;
+  }
+  .meta-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .meta-row > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .meta-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+  }
+  .meta-value {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .result-banner {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 18px 28px;
+    background: var(--paper-alt);
+    border-bottom: 2px dashed var(--rule);
+    transform: scale(0.9);
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: transform 0.35s ease, opacity 0.35s ease;
+  }
+  .result-banner.show {
+    transform: scale(1);
+    opacity: 1;
+    max-height: 320px;
+    padding: 18px 28px;
+  }
+  .result-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .share-message {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .share-btn {
+    align-self: flex-start;
+    padding: 10px 20px;
+    font-family: 'Special Elite', monospace;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: var(--paper);
+    background: var(--stamp);
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+  .share-btn:hover { background: #a33a3a; }
+  .share-btn.copied { background: var(--correct); }
+  .stamp-checked {
+    font-family: 'Special Elite', monospace;
+    font-size: 15px;
+    color: var(--stamp);
+    border: 3px solid var(--stamp);
+    border-radius: 8px;
+    padding: 6px 14px;
+    transform: rotate(-8deg);
+  }
+  .score-line {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  #score-value { font-size: 20px; }
+  form { padding: 8px 28px 28px; }
+  .question-block {
+    padding: 22px 0;
+    border-bottom: 1px solid rgba(28,37,65,0.12);
+  }
+  .question-block:last-of-type { border-bottom: none; }
+  .q-header {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .q-number {
+    font-weight: 700;
+    font-size: 13px;
+    color: var(--rule);
+  }
+  .q-category {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    background: var(--paper-alt);
+    padding: 2px 8px;
+    border-radius: 999px;
+  }
+  .q-text {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 14px;
+  }
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .option {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    border: 1.5px solid rgba(28,37,65,0.25);
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: border-color 0.15s ease, background 0.15s ease;
+  }
+  .option:hover { border-color: var(--rule); }
+  .option input { position: absolute; opacity: 0; pointer-events: none; }
+  .bubble {
+    flex: none;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 2px solid var(--ink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    background: var(--paper);
+  }
+  .option input:checked ~ .bubble {
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .option-text { font-size: 14.5px; flex: 1; }
+  .mark {
+    width: 20px;
+    height: 20px;
+    flex: none;
+    display: none;
+  }
+  .mark path {
+    fill: none;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 30;
+    stroke-dashoffset: 30;
+  }
+  .mark-check path { stroke: var(--correct); }
+  .mark-cross path { stroke: var(--incorrect); }
+  form.answered .option { cursor: default; }
+  form.answered .option input { pointer-events: none; }
+  .question-block.checked .option.is-correct {
+    border-color: var(--correct);
+    background: rgba(46,125,79,0.06);
+  }
+  .question-block.checked .option.is-correct .mark-check {
+    display: block;
+  }
+  .question-block.checked .option.is-wrong-selected {
+    border-color: var(--incorrect);
+    background: rgba(192,57,43,0.06);
+  }
+  .question-block.checked .option.is-wrong-selected .mark-cross {
+    display: block;
+  }
+  .question-block.checked .mark path {
+    animation: draw 0.45s ease forwards;
+  }
+  @keyframes draw {
+    to { stroke-dashoffset: 0; }
+  }
+  .submit-btn {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    padding: 14px;
+    font-family: 'Special Elite', monospace;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    color: var(--paper);
+    background: var(--ink);
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+  .submit-btn:hover { background: var(--rule); }
+  .submit-btn:disabled { background: var(--muted); cursor: default; }
+  .footer-note {
+    max-width: 640px;
+    margin: 18px auto 0;
+    padding: 0 12px;
+    font-size: 12px;
+    color: var(--muted);
+    text-align: center;
+  }
+  .footer-note a { color: var(--rule); }
+  @media (max-width: 480px) {
+    h1 { font-size: 19px; max-width: 100%; }
+    .stamp-badge { position: static; display: inline-block; margin-bottom: 10px; transform: rotate(-2deg); }
+  }
+</style>
+</head>
+<body>
+  <div class="admit-card">
+    <div class="card-header">
+      <div class="stamp-badge">OFFICIAL</div>
+      <div class="eyebrow">प्रयागराज डेली क्विज़ · Prayagraj Daily Quiz</div>
+      <h1>Admit Card — General Knowledge, History &amp; Geography</h1>
+      <div class="meta-row">
+        <div>
+          <span class="meta-label">Roll No.</span>
+          <span class="meta-value mono">PRJ-20260720</span>
+        </div>
+        <div>
+          <span class="meta-label">Date</span>
+          <span class="meta-value mono">20 July 2026</span>
+        </div>
+        <div>
+          <span class="meta-label">Questions</span>
+          <span class="meta-value mono">05</span>
+        </div>
+      </div>
+    </div>
+
+    <div id="result-banner" class="result-banner">
+      <div class="result-top">
+        <div class="stamp-checked">CHECKED</div>
+        <div class="score-line">Marks Obtained: <span id="score-value" class="mono">0</span> / 5</div>
+      </div>
+      <p class="share-message">🎉 अपना स्कोर शेयर करें और कल पाएं नए सवाल! | Share your score to get more questions tomorrow!</p>
+      <button type="button" id="share-btn" class="share-btn">Share My Score</button>
+    </div>
+
+    <form id="quiz-form">
+
+    <div class="question-block" data-qindex="0" data-correct="2">
+      <div class="q-header">
+        <span class="q-number mono">Q1</span>
+        <span class="q-category">History</span>
+      </div>
+      <p class="q-text">Who is the creator of the soft drink, Dr. Pepper?</p>
+      <div class="options">
+        <label class="option" data-index="0">
+          <input type="radio" name="q0" value="0">
+          <span class="bubble"><span class="bubble-letter">A</span></span>
+          <span class="option-text">Johnson Hinsin</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+        <label class="option" data-index="1">
+          <input type="radio" name="q0" value="1">
+          <span class="bubble"><span class="bubble-letter">B</span></span>
+          <span class="option-text">Boris Heviltik</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+        <label class="option" data-index="2">
+          <input type="radio" name="q0" value="2">
+          <span class="bubble"><span class="bubble-letter">C</span></span>
+          <span class="option-text">Charles Alderton</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+        <label class="option" data-index="3">
+          <input type="radio" name="q0" value="3">
+          <span class="bubble"><span class="bubble-letter">D</span></span>
+          <span class="option-text">James Wellington</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+
+      </div>
+    </div>
+
+    <div class="question-block" data-qindex="1" data-correct="3">
+      <div class="q-header">
+        <span class="q-number mono">Q2</span>
+        <span class="q-category">History</span>
+      </div>
+      <p class="q-text">Which modern day country is the region that was known as Phrygia in ancient times?</p>
+      <div class="options">
+        <label class="option" data-index="0">
+          <input type="radio" name="q1" value="0">
+          <span class="bubble"><span class="bubble-letter">A</span></span>
+          <span class="option-text">Greece</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+        <label class="option" data-index="1">
+          <input type="radio" name="q1" value="1">
+          <span class="bubble"><span class="bubble-letter">B</span></span>
+          <span class="option-text">Syria</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+        <label class="option" data-index="2">
+          <input type="radio" name="q1" value="2">
+          <span class="bubble"><span class="bubble-letter">C</span></span>
+          <span class="option-text">Egypt</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+        <label class="option" data-index="3">
+          <input type="radio" name="q1" value="3">
+          <span class="bubble"><span class="bubble-letter">D</span></span>
+          <span class="option-text">Turkey</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+
+      </div>
+    </div>
+
+    <div class="question-block" data-qindex="2" data-correct="0">
+      <div class="q-header">
+        <span class="q-number mono">Q3</span>
+        <span class="q-category">General Knowledge</span>
+      </div>
+      <p class="q-text">Roughly how many ingested apple seeds would it take to receive a fatal dose of cyanide?</p>
+      <div class="options">
+        <label class="option" data-index="0">
+          <input type="radio" name="q2" value="0">
+          <span class="bubble"><span class="bubble-letter">A</span></span>
+          <span class="option-text">200</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+        <label class="option" data-index="1">
+          <input type="radio" name="q2" value="1">
+          <span class="bubble"><span class="bubble-letter">B</span></span>
+          <span class="option-text">20,000</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+        <label class="option" data-index="2">
+          <input type="radio" name="q2" value="2">
+          <span class="bubble"><span class="bubble-letter">C</span></span>
+          <span class="option-text">2,000</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+        <label class="option" data-index="3">
+          <input type="radio" name="q2" value="3">
+          <span class="bubble"><span class="bubble-letter">D</span></span>
+          <span class="option-text">20</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+
+      </div>
+    </div>
+
+    <div class="question-block" data-qindex="3" data-correct="1">
+      <div class="q-header">
+        <span class="q-number mono">Q4</span>
+        <span class="q-category">Geography</span>
+      </div>
+      <p class="q-text">What colour is the circle on the Japanese flag?</p>
+      <div class="options">
+        <label class="option" data-index="0">
+          <input type="radio" name="q3" value="0">
+          <span class="bubble"><span class="bubble-letter">A</span></span>
+          <span class="option-text">Black</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+        <label class="option" data-index="1">
+          <input type="radio" name="q3" value="1">
+          <span class="bubble"><span class="bubble-letter">B</span></span>
+          <span class="option-text">Red</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+        <label class="option" data-index="2">
+          <input type="radio" name="q3" value="2">
+          <span class="bubble"><span class="bubble-letter">C</span></span>
+          <span class="option-text">White</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+        <label class="option" data-index="3">
+          <input type="radio" name="q3" value="3">
+          <span class="bubble"><span class="bubble-letter">D</span></span>
+          <span class="option-text">Yellow</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+
+      </div>
+    </div>
+
+    <div class="question-block" data-qindex="4" data-correct="1">
+      <div class="q-header">
+        <span class="q-number mono">Q5</span>
+        <span class="q-category">Geography</span>
+      </div>
+      <p class="q-text">Where is the fast food chain &quot;Panda Express&quot; headquartered?</p>
+      <div class="options">
+        <label class="option" data-index="0">
+          <input type="radio" name="q4" value="0">
+          <span class="bubble"><span class="bubble-letter">A</span></span>
+          <span class="option-text">Fresno, California</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+        <label class="option" data-index="1">
+          <input type="radio" name="q4" value="1">
+          <span class="bubble"><span class="bubble-letter">B</span></span>
+          <span class="option-text">Rosemead, California</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+        <label class="option" data-index="2">
+          <input type="radio" name="q4" value="2">
+          <span class="bubble"><span class="bubble-letter">C</span></span>
+          <span class="option-text">Sacramento, California</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+        <label class="option" data-index="3">
+          <input type="radio" name="q4" value="3">
+          <span class="bubble"><span class="bubble-letter">D</span></span>
+          <span class="option-text">San Diego, California</span>
+          <svg class="mark mark-check" viewBox="0 0 24 24"><path d="M4 12.5 L9.5 18 L20 6"/></svg>
+          <svg class="mark mark-cross" viewBox="0 0 24 24"><path d="M5 5 L19 19 M19 5 L5 19"/></svg>
+        </label>
+
+      </div>
+    </div>
+
+      <button type="submit" class="submit-btn">Submit Answer Sheet</button>
+    </form>
+  </div>
+
+  <p class="footer-note">
+    Questions from the free <a href="https://opentdb.com" target="_blank" rel="noopener">Open Trivia Database</a>.
+    For fun only — verify anything important independently.
+    Brought to you by <a href="https://www.facebook.com/allahabadcityin" target="_blank" rel="noopener">Prayagraj News</a>.
+  </p>
+
+<script>
+(function () {
+  var form = document.getElementById('quiz-form');
+  var resultBanner = document.getElementById('result-banner');
+  var scoreValue = document.getElementById('score-value');
+  var shareBtn = document.getElementById('share-btn');
+  var currentScore = 0;
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (form.classList.contains('answered')) return;
+
+    var blocks = Array.prototype.slice.call(document.querySelectorAll('.question-block'));
+    var score = 0;
+
+    blocks.forEach(function (block, i) {
+      var correctIndex = parseInt(block.getAttribute('data-correct'), 10);
+      var options = Array.prototype.slice.call(block.querySelectorAll('.option'));
+      var selected = block.querySelector('input:checked');
+      var selectedIndex = selected ? parseInt(selected.value, 10) : -1;
+      var isCorrect = selectedIndex === correctIndex;
+      if (isCorrect) score++;
+
+      setTimeout(function () {
+        options.forEach(function (opt, j) {
+          if (j === correctIndex) opt.classList.add('is-correct');
+          if (j === selectedIndex && !isCorrect) opt.classList.add('is-wrong-selected');
+        });
+        block.classList.add('checked');
+      }, i * 180);
+    });
+
+    form.classList.add('answered');
+    var submitBtn = form.querySelector('.submit-btn');
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Answer Sheet Submitted';
+
+    setTimeout(function () {
+      currentScore = score;
+      scoreValue.textContent = score;
+      resultBanner.classList.add('show');
+      resultBanner.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, blocks.length * 180 + 200);
+  });
+
+  shareBtn.addEventListener('click', function () {
+    var pageUrl = window.location.href;
+    var shareText = 'I scored ' + currentScore + '/5 on today\'s Prayagraj Daily Quiz! 🧠 Can you beat me?';
+
+    if (navigator.share) {
+      navigator.share({ title: 'Prayagraj Daily Quiz', text: shareText, url: pageUrl }).catch(function () {});
+      return;
+    }
+
+    // Fallback for browsers without the native share sheet (mostly desktop):
+    // open Facebook's share dialog, and also copy a ready-to-paste caption
+    // to the clipboard since Facebook's dialog often won't accept prefilled text.
+    var fbShareUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(pageUrl);
+    window.open(fbShareUrl, '_blank', 'noopener,width=600,height=500');
+
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(shareText + ' ' + pageUrl).then(function () {
+        var original = shareBtn.textContent;
+        shareBtn.textContent = 'Caption Copied — Paste in Facebook!';
+        shareBtn.classList.add('copied');
+        setTimeout(function () {
+          shareBtn.textContent = original;
+          shareBtn.classList.remove('copied');
+        }, 3000);
+      }).catch(function () {});
+    }
+  });
+})();
+</script>
+</body>
+</html>
